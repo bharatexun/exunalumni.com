@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exun Alumni Network - Intro Letter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap" rel="stylesheet">
+    <style>
+        body {            
+            line-height: 1.6;
+            color: #333;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 0;      
+            font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-variation-settings: "slnt" 0;
+            background: url("https://newsletter.bharatk.in/uploads/Vector-1.svg");
+            background-repeat: no-repeat;
+            background-position: 100% 100%;
+        }
+        
+    
+        h1, h2, h3 {
+            color: #0066cc;
+        }
+        
+        
+        #sticky-header {
+          max-width: 100vw;
+          overflow-x: hidden;
+          position: absolute;
+          margin: 0;
+          padding: 0;
+          line-height: 7rem;
+          top: -5%;
+          left: -1%;
+          font-size: 6.5rem;
+          font-weight: 900;
+          opacity: 0.05;
+        }
+        
+        #logo {
+          display: block;
+          margin: 7.5% auto;
+        }
+        
+        #main-content {
+            width: 95%;
+            margin: 15% auto 5% auto;
+        }
+        
+        .highlight {
+            background-color: #ffee0009;
+            padding: 10px;
+            border-left: 4px solid #0066cc;
+            margin-bottom: 20px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .footer {
+            margin-top: 20px;
+            border-top: 1px solid #ccc;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="sticky-header">EXUN ALUMNI <br/> NETWORK</h1>
+    
+    <img id="logo" src="https://newsletter.bharatk.in/uploads/Vector.svg" />
+    
+    <div id="main-content">
+    
+    <h2>Hi, Exun alum!</h2>
+    
+    <p>If you're reading this, you are someone whose life in school was, in some way, touched by Exun. For a group of us, the impact Exun had on our lives in school was so profound that even now, years later, each of us feels – individually – very strongly about expanding that community and its transformative power beyond the boundaries of the school.</p>
+    
+    <div class="highlight">
+        <h3>TL;DR Goals:</h3>
+        <ul>
+            <li><strong>Funding:</strong> Establish an alumni organisation to support and sustain Exun beyond school</li>
+            <li><strong>Events:</strong> Organise events to connect Exun alumni and current members, fostering a strong network</li>
+            <li><strong>Support:</strong> Provide wisdom, advice, and resources from Exun alumni to current students and recent graduates</li>
+        </ul>
+    </div>
+    
+    <p>Bharat (Exun 2015) and Karmanya (Exun 2015) were put in touch with Gursartaj (Exun 2007) and Ankit (Exun 2000) by Mukesh Sir around the idea of forming an alumni organisation to help Exun persist and prosper even outside of school. A few Zoom meetings in, we had gone from barely knowing each other to collaborating over a plan to build an Exun Alumni Network. This letter is part of that plan - to reach out to people we feel will be early believers in the idea.</p>
+    
+    <p>To me, the synergy that developed in only a couple video calls among the four of us symbolises what the potential really is: Exun (and Mukesh Sir's office) was a place in school for talented, precocious, like-minded young kids to find each other.</p>
+    
+    <h3>The Plan for Now:</h3>
+    <ul>
+        <li>We establish a trust/society/non-profit company (Exun Alumni Network)</li>
+        <li>We build online communities on multiple social media targeting diverse age groups</li>
+        <li>We have a volunteer-run website with links to social media and some descriptive content</li>
+        <li>We have online sessions with alumni from diverse backgrounds through the year</li>
+        <li>We hire a few employees as part of the Alumni Network to run our social media communities</li>
+        <li>We conduct one offline event a year at DPS RK Puram's campus</li>
+        <li>As a stretch goal, we run offline spaces across cities for members</li>
+    </ul>
+    
+    <div class="highlight">
+        <h3>Get Involved!</h3>
+        <p>We believe in the transformative power of the Exun community and its potential to make a lasting impact beyond school walls. If you're interested in contributing your time, expertise, or resources - reach out! Passionate members' involvement will be critical in helping us create a thriving network that benefits current and future members.</p>
+    </div>
+    
+    <div class="footer">
+        <em>If you're interested, please email us at: <a href="mailto:contact@exunalumni.com">contact@exunalumni.com</a></em>
+    </div>
+    </div>
+</body>
+</html>
