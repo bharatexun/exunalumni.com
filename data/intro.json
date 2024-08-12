@@ -1,5 +1,90 @@
 [
   {
+    "name":"Aman Verma",
+    "year":"Exun 2019",
+    "message":"Hi, I’m Aman Verma, 2019 Exun VP. I joined Exun in 2013 and was mostly involved with Programming and Cryptic Hunts. Just completed my undergrad from IIT Delhi and about to start as a trader at Jane Street in Hong Kong. Great initiative, would love to connect with Exunites all across the globe!"
+  },
+  {
+    "name": "Madhav Shekhar Sharma",
+    "year": "Exun 2021",
+    "message": "Hi people! I’m Madhav - b/o 21. I’m just winding up my undergrad in EECS and math at UMich and am working as a robotics engineer in the Bay Area. Great to be here and would love saying hi to anyone close and far :))"
+  },
+  {
+    "name": "Vedant Singh",
+    "year": "Exun 2023",
+    "message": "Hi everyone! I'm Vedant, doing CS/Math at Stanford rn. I am interested in ML, Crypto and Finance. Looking forward to meet all of you in the Bay Area!"
+  },
+  {
+    "name": "Natasha Arya",
+    "year": "Exun 2021",
+    "message": "Hi I’m Natasha 👋 I graduated in 2021 from RKP, and just wrapped up my undergrad in CS + Music at UC Berkeley. I’ll be working at Duolingo in NYC soon, would love to say hi to people around once I move :) Thanks for making this group!"
+  },
+  {
+    "name": "Mehul Srivastava",
+    "year": "Exun 2023",
+    "message": "Hello everyone 😄 I'm Mehul Srivastava (Class of 2023). I am currently pursuing a CS major at HKU. Would love to meet y'all :)"
+  },
+  {
+    "name": "Aarshia Gupta",
+    "year": "Exun 2023",
+    "message": "Hi! I’m Aarshia, Class of 2023. I’m a Data Science major at UC San Diego. Excited to be here!"
+  },
+  {
+    "name": "Pratishtha Batra",
+    "year": "Exun 2023",
+    "message": "Hi everyone! I'm Pratishtha, batch of 2023. I'm currently pursuing Electronics and Communication Engineering at IGDTUW. I was in group discussion at Exun and enjoy debating. Photography and filmmaking are the two hobbies I love spending time on. Really glad to be here!"
+  },
+  {
+    "name": "Nitin Gupta",
+    "year": "Exun 1997",
+    "message": "Hi! I’m Nitin Gupta, Class of 1997. Having own business settled in Gurgaon."
+  },
+  {
+    "name": "Pulkit Garg",
+    "year": "Exun 2022",
+    "message": "Hey! I’m Pulkit Garg, Class of 2022. I did game development and a bit of everything else too at Exun. Currently, I'm at UWaterloo studying CS and Cognitive Science with a specialization in fine arts."
+  },
+  {
+    "name": "Kanishka Verma",
+    "year": "Exun 2024",
+    "message": "Hi! I'm Kanishka Verma, Exun 2020-24. I had the best four years doing different things at Exun, managing events, making friends and getting to know more about what I like to do. I love designing, debating, organizing events and well, talking & listening :p. Currently taking a year off to focus and reset. Extremely grateful to be here and I look forward to learning a lot from you all!"
+  },
+  {
+    "name": "Vishesh Saraswat",
+    "year": "Exun 2023",
+    "message": "Hi this is Vishesh, I graduated in 2023. I’m currently at IIITH."
+  },
+  {
+    "name": "Aaryak Garg",
+    "year": "Exun 2020",
+    "message": "Hey, I’m Aaryak. Was part of Exun - 2016-2020. Think I contributed in almost every dept (except GD :P). Enjoyed cryptic hunts the most. Miss sitting in Egurukul and doing the hunts with the whole team. I am APM @Predii - involved in the automotive industry, trying to help the aftersales & aftermarket. Love this, thanks for having me!"
+  },
+  {
+    "name": "Kavin Valli",
+    "year": "Exun 2023",
+    "message": "Hey everyone! Kavin this side (Class of 2023). Currently doing Computer Engineering at UWaterloo."
+  },
+  {
+    "name": "Aadhya Dhar",
+    "year": "Exun 2023",
+    "message": "Hello! I’m Aadhya (Class of 2023) and I’m an undergraduate student at Lady Shri Ram College!"
+  },
+  {
+    "name": "Siddhartha Verma",
+    "year": "Exun 2024",
+    "message": "Hello, I'm Siddhartha (Class of 2024). I'm at VIT Vellore pursuing Mechanical Engineering and currently building Tarmac Media."
+  },
+  {
+    "name": "Sneha Chandra",
+    "year": "Exun 2023",
+    "message": "Helloo, I'm Sneha. I graduated in 2023. I'm at NTU Singapore doing Materials Science."
+  },
+  {
+    "name": "Shireen Rajora",
+    "year": "Exun 2023",
+    "message": "Hi everyone, I’m Shireen (Class of 2023) and I’m doing my undergrad at UWaterloo."
+  },
+  {
     "name": "Ritin Pachnanda",
     "year": "Exun 2019",
     "message": "Hey, I’m Ritin Pachnanda! Exun 2014-19. Graduated from UPenn last year and now I’m back in Delhi working on mrmr.social with Avi Chandra. Super excited for this!"
@@ -18,7 +103,7 @@
     "name": "Angad Singh",
     "year": "Exun 2022",
     "message": "Hi! I’m Angad, I graduated in 2022 and I’m an undergrad at Ashoka University."
-  },  
+  },
   {
     "name": "Manas",
     "year": "Exun 2001",
