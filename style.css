@@ -32,6 +32,7 @@ h3 {
   font-size: 6.5rem;
   font-weight: 900;
   opacity: 0.05;
+  pointer-events: none;
 }
 
 #logo {
@@ -41,9 +42,15 @@ h3 {
   height: 50px;
 }
 
+#app-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 #main-content {
   width: 95%;
-  margin: 15% auto 5% auto;
+  margin: 5% auto 5% auto;
 }
 
 .highlight {
@@ -96,6 +103,18 @@ ul {
   margin-top: 0;
   margin-bottom: 10px;
 }
+
+.divider {
+  color: #ccc;
+}
+
+.country {
+  font-size: 0.8em;
+  color: #777;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
 .message {
   margin-top: 10px;
 }
@@ -133,4 +152,23 @@ ul {
   height: 1.5rem;
   margin-bottom: 1rem;
   border-radius: 0.25rem;
+}
+
+/*
+  * Filter styles
+  */
+
+select {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #666;
+  padding: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  box-shadow: 1px 1px 5px -2px #0066cc;
+  text-align: center;
+}
+
+#filter-stats {
+  text-align: center;
 }

@@ -12,36 +12,134 @@
     />
     <link rel="stylesheet" href="style.css" />
     <script>
+      let fetched = [];
+      let setup = false;
+      let yearSet = new Set();
+      let countrySet = new Set();
+      const searchParams = new URLSearchParams(window.location.search);
+      let year = searchParams.get("year");
+      let country = searchParams.get("country");
+
+      function init() {
+        loadIntroductions();
+        attachFilterListeners();
+      }
+
       async function loadIntroductions() {
         try {
           const response = await fetch("/data/intro.json");
-          const introductions = await response.json();
-          const container = document.getElementById("main-content");
-
-          // clear skeleton
-          const skeletonContainer =
-            document.getElementById("skeleton-container");
-          container.removeChild(skeletonContainer);
-
-          introductions.forEach((intro) => {
-            const div = document.createElement("div");
-            div.className = "introduction";
-            div.innerHTML = `
-                <p class="name">
-                  ${intro.name}
-                  <br />
-                  <span class="year">Exun ${intro.year}</span>
-                </p>
-                <p class="message">${intro.message}</p>
-              `;
-            container.appendChild(div);
-          });
+          fetched = await response.json();
+          showIntroductions(fetched);
         } catch (error) {
           console.error("Error loading introductions:", error);
         }
       }
 
-      window.addEventListener("DOMContentLoaded", loadIntroductions);
+      function attachFilterListeners() {
+        const yearFilter = document.getElementById("yearFilter");
+        const countryFilter = document.getElementById("countryFilter");
+
+        yearFilter.addEventListener("change", filterIntroductions);
+        countryFilter.addEventListener("change", filterIntroductions);
+      }
+
+      function updateFilterStats(filteredCount) {
+        const filteredCountElement = document.getElementById("filtered-count");
+        const totalCountElement = document.getElementById("total-count");
+
+        filteredCountElement.textContent = filteredCount;
+        totalCountElement.textContent = fetched.length;
+      }
+
+      function showIntroductions(introductions) {
+        const mainContainer = document.getElementById("main-content");
+        const introContainer = document.getElementById("intros");
+        // clear existing introductions
+        introContainer.innerHTML = "";
+
+        // clear skeleton
+        const skeletonContainer = document.getElementById("skeleton-container");
+        if (skeletonContainer) {
+          mainContainer.removeChild(skeletonContainer);
+        }
+
+        introductions.forEach((intro) => {
+          // Only construct the filter sets for the first time
+          if (!setup) {
+            yearSet.add(intro.year);
+            countrySet.add(intro.country ?? "Unspecified");
+          }
+
+          const div = document.createElement("div");
+          div.className = "introduction";
+          div.innerHTML = `
+                <p class="name">
+                  ${intro.name}
+                  <br />
+                  <span class="year">Exun ${intro.year}</span>  <span class="divider">|</span>  ${intro.country}
+                </p>
+                <p class="message">${intro.message}</p>
+              `;
+          introContainer.appendChild(div);
+        });
+
+        if (!setup) {
+          setup = true;
+          populateFilters(
+            Array.from(yearSet).sort((a, b) => b - a),
+            "yearFilter"
+          );
+          populateFilters(countrySet, "countryFilter");
+          if (year || country) {
+            document.getElementById("yearFilter").value = year;
+            document.getElementById("countryFilter").value = country;
+            filterIntroductions();
+          } else {
+            updateFilterStats(fetched.length);
+          }
+        }
+      }
+
+      function populateFilters(dataSet, filterId) {
+        const filter = document.getElementById(filterId);
+        dataSet.forEach((dataItem) => {
+          filter.options.add(new Option(dataItem, dataItem));
+        });
+      }
+
+      async function filterIntroductions(event) {
+        const { value, id } = event?.target ?? {};
+        let url = new URL(window.location.href);
+        let params = new URLSearchParams(url.search);
+        // Update global filter variables
+        if (id === "yearFilter") {
+          year = value;
+          params.set("year", year);
+        } else if (id === "countryFilter") {
+          country = value;
+          params.set("country", country);
+        }
+        // Update URL only on filter change event
+        if (event) {
+          url.search = params.toString();
+          window.history.pushState({}, "", url);
+        }
+
+        if (!year && !country) {
+          showIntroductions(fetched);
+          return;
+        }
+
+        const filtered = fetched.filter((intro) => {
+          let countryMatch = country ? intro.country === country : true;
+          let yearMatch = year ? intro.year === parseInt(year) : true;
+          return countryMatch && yearMatch;
+        });
+        updateFilterStats(filtered.length);
+        showIntroductions(filtered);
+      }
+
+      window.addEventListener("DOMContentLoaded", init);
     </script>
   </head>
   <body>
@@ -57,13 +155,34 @@
     />
 
     <div id="main-content">
-      <h2>Introductions</h2>
+      <div id="app-bar">
+        <h2>Introductions</h2>
+        <div id="filters">
+          <select name="year" id="yearFilter">
+            <option value="">Year</option>
+          </select>
+
+          <select name="country" id="countryFilter">
+            <option value="">Country</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="filter-stats">
+        <p>
+          <strong>Showing:</strong> <span id="filtered-count">All</span> of
+          <span id="total-count">0</span>
+        </p>
+      </div>
+
       <div id="skeleton-container">
         <div class="skeleton-name skeleton"></div>
         <div class="skeleton-text skeleton"></div>
         <div class="skeleton-text skeleton"></div>
         <div class="skeleton-text skeleton"></div>
       </div>
+
+      <div id="intros"></div>
     </div>
   </body>
 </html>

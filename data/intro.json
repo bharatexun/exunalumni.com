@@ -1,314 +1,373 @@
 [
   {
     "name": "Samarth Mathur",
-    "year": "2009",
+    "year": 2009,
     "message": "Hey I'm samarth, class of 2009, I was in Seattle the last 6.5 years and moved to Vancouver to do a start up cuz I had the PR and the start up was based in Zurich and I didn't wanna figure out visa stuff. I'm always down for brainstorming start up ideas",
     "country": "🇨🇦"
   },
   {
     "name": "Sobhagya",
-    "year": "2011",
+    "year": 2011,
     "message": "Hi everyone! I'm Sobhagya, Exun/RKP class of 2011. I live in Oregon, and enjoyed Product management in Marketing Tech, Consumer insights, and now Demand and size forecasting at the Nike WHQ. I'm hitting my 10 year anniversary and mid-life crisis soon, so hit me up if you're in Bangalore/Seattle/Sf and want to exchange restaurant startup ideas, or (non confidential) retail and tech industry knowledge",
     "country": "🇺🇸"
   },
   {
     "name": "Akshay Gupta",
-    "year": "2016",
-    "message": "Hi folks! I'm Akshay (President, Class of 2016). Currently based out of Seattle, working as an engineer on the Risk & Fraud team at Plaid. Hmu if you're in / visiting Seattle, working in the risk & fraud space or generally want to catch up!"    
+    "year": 2016,
+    "message": "Hi folks! I'm Akshay (President, Class of 2016). Currently based out of Seattle, working as an engineer on the Risk & Fraud team at Plaid. Hmu if you're in / visiting Seattle, working in the risk & fraud space or generally want to catch up!",
+    "country": "🇺🇸"
   },
   {
     "name": "Vishesh Balani",
-    "year": "2015",
-    "message": "Hi everyone! I’m Vishesh Balani, Class of 2015. I moved to Chicago/Evanston 3 days ago to pursue my MBA and will be calling it home for the next 2 years. Prior to the move, I’ve worked as a product manager in e-commerce and in consulting. Excited to reconnect with all of you!"
+    "year": 2015,
+    "message": "Hi everyone! I’m Vishesh Balani, Class of 2015. I moved to Chicago/Evanston 3 days ago to pursue my MBA and will be calling it home for the next 2 years. Prior to the move, I’ve worked as a product manager in e-commerce and in consulting. Excited to reconnect with all of you!",
+    "country": "🇺🇸"
   },
   {
     "name": "Shubhaankar",
-    "year": "2023",
-    "message": "Hello everyone! I'm Shubhaankar, head of ML in the batch of 2023. I'm currently a rising 2nd year at UChicago double majoring in CS and Statistics. I'm also pursuing research in machine learning - computer vision, and LLMs, and some quantitative applications in finance. Excited to connect with you all!"
+    "year": 2023,
+    "message": "Hello everyone! I'm Shubhaankar, head of ML in the batch of 2023. I'm currently a rising 2nd year at UChicago double majoring in CS and Statistics. I'm also pursuing research in machine learning - computer vision, and LLMs, and some quantitative applications in finance. Excited to connect with you all!",
+    "country": "🇺🇸"
   },
   {
     "name": "Kunal Kapila",
-    "year": "2014",
-    "message": "Hi All, I’m Kunal Kapila. (One of the) Head of Programming from the RKP class of 2014. Currently based out of London. I work at a FinTech firm as a software engineer. If any of you are in the UK, or planning a visit here anytime soon, let me know. Would love to catch up over a 🍺 (or five)"
+    "year": 2014,
+    "message": "Hi All, I’m Kunal Kapila. (One of the) Head of Programming from the RKP class of 2014. Currently based out of London. I work at a FinTech firm as a software engineer. If any of you are in the UK, or planning a visit here anytime soon, let me know. Would love to catch up over a 🍺 (or five)",
+    "country": "🇬🇧"
   },
   {
     "name": "Aman Gupta",
-    "year": "2001",
-    "message": "Hi All! This is Aman Gupta, Class of 2001. I have had academic training in Engineering, Management, and Law. Worked for a few years in the financial sector, a couple doing a StartUp, and now am in government service with my present posting at Port Blair (albeit my permanent base is in Delhi). I am still open to trying out a few ideas but get stuck in not having a good tech partner. I would be happy to connect with those in Delhi who may have the bandwidth and inclination to explore. Regards"
+    "year": 2001,
+    "message": "Hi All! This is Aman Gupta, Class of 2001. I have had academic training in Engineering, Management, and Law. Worked for a few years in the financial sector, a couple doing a StartUp, and now am in government service with my present posting at Port Blair (albeit my permanent base is in Delhi). I am still open to trying out a few ideas but get stuck in not having a good tech partner. I would be happy to connect with those in Delhi who may have the bandwidth and inclination to explore. Regards",
+    "country": "🇮🇳"
   },
   {
     "name": "Sahil Bajaj",
-    "year": "2009",
-    "message": "Hey everyone, I’m Sahil - class of 2009. Currently based in Oslo! 🇳🇴"
+    "year": 2009,
+    "message": "Hey everyone, I’m Sahil - class of 2009. Currently based in Oslo! 🇳🇴",
+    "country": "🇳🇴"
   },
   {
     "name": "Sukrit Dewan",
-    "year": "2000",
-    "message": "Sukrit DEWAN  - Exun 2000 (with Ankit and Jawahar). In finance since 2005 and currently working with Barclays (Gursartaj is a colleague) in Hong Kong. Anyone in HK please shout out separately"
+    "year": 2000,
+    "message": "Sukrit DEWAN  - Exun 2000 (with Ankit and Jawahar). In finance since 2005 and currently working with Barclays (Gursartaj is a colleague) in Hong Kong. Anyone in HK please shout out separately",
+    "country": "🇭🇰"
   },
   {
     "name": "Mohit Sharma",
-    "year": "2014",
-    "message": "Hey everyone! I am Mohit Sharma, Vice President from 2014 batch. I am currently based in Bangalore, working as a Software Engineering Manager at Amazon Payments. Feeling really nostalgic going through the messages and super excited for connecting with all of you ☺️"
+    "year": 2014,
+    "message": "Hey everyone! I am Mohit Sharma, Vice President from 2014 batch. I am currently based in Bangalore, working as a Software Engineering Manager at Amazon Payments. Feeling really nostalgic going through the messages and super excited for connecting with all of you ☺️",
+    "country": "🇮🇳"
   },
   {
     "name": "Shantanu Chhabra",
-    "year": "2014",
-    "message": "Hi all, I’m Shantanu Chhabra. Graduated RKP in 2014. Currently in Seattle, but moving to the bay area soon. I work at Apple where I lead the OS Intelligence team. I’m hiring ML Engineers for my team — hmu if you know anyone."
+    "year": 2014,
+    "message": "Hi all, I’m Shantanu Chhabra. Graduated RKP in 2014. Currently in Seattle, but moving to the bay area soon. I work at Apple where I lead the OS Intelligence team. I’m hiring ML Engineers for my team — hmu if you know anyone.",
+    "country": "🇺🇸"
   },
   {
     "name": "Rohit Garg",
-    "year": "2007",
-    "message": "Hi, I’m Rohit (aka RG). ‘07 grad. I live in Seattle, working on my own thing now. Most recently at Google but I quit on April 1st after the Gmail anniversary triggered my mid-life crisis."
+    "year": 2007,
+    "message": "Hi, I’m Rohit (aka RG). ‘07 grad. I live in Seattle, working on my own thing now. Most recently at Google but I quit on April 1st after the Gmail anniversary triggered my mid-life crisis.",
+    "country": "🇺🇸"
   },
   {
     "name": "Karmanya Singh",
-    "year": "2015",
-    "message": "Hi all, Karmanya here! Batch of 2015. I did my electrical engineering from Imperial. Came back to India in 2020 and started Kommit - kommit.com - we started as a patent consulting firm but now do many other things too. I also work with NotarEase (notarease.com) - a legal-tech startup doing online notarisations. Actively involved in Kabaddi - especially England Kabaddi (englandkabaddi.com) Based in Delhi. Happy to catch up!!"
+    "year": 2015,
+    "message": "Hi all, Karmanya here! Batch of 2015. I did my electrical engineering from Imperial. Came back to India in 2020 and started Kommit - kommit.com - we started as a patent consulting firm but now do many other things too. I also work with NotarEase (notarease.com) - a legal-tech startup doing online notarisations. Actively involved in Kabaddi - especially England Kabaddi (englandkabaddi.com) Based in Delhi. Happy to catch up!!",
+    "country": "🇮🇳"
   },
   {
     "name": "Tanay Vardhan",
-    "year": "2015",
-    "message": "Hey everyone! I'm Tanay, graduated in 2015. I live in Toronto, working at PayPal as a software engineer. Great to meet you all!"
+    "year": 2015,
+    "message": "Hey everyone! I'm Tanay, graduated in 2015. I live in Toronto, working at PayPal as a software engineer. Great to meet you all!",
+    "country": "🇨🇦"
   },
   {
     "name": "Naman Dhingra",
-    "year": "2020",
-    "message": "Hey!! I'm Naman, Exun 2019-20. Just finished my undergrad at NSUT and have started as a Product Engineer at Sprinklr in Gurgaon. Seeing all the introductions and names brought back so many amazing memories. So happy to reconnect!"
+    "year": 2020,
+    "message": "Hey!! I'm Naman, Exun 2019-20. Just finished my undergrad at NSUT and have started as a Product Engineer at Sprinklr in Gurgaon. Seeing all the introductions and names brought back so many amazing memories. So happy to reconnect!",
+    "country": "🇮🇳"
   },
   {
     "name": "Somesh Kar",
-    "year": "2022",
-    "message": "Hi everyone! I'm Somesh, President '22 with Ashvin. Developer by trade, I tinker with the web, apps, system design, and a bit of hardware. Currently an ECE Major at Shiv Nadar University."
+    "year": 2022,
+    "message": "Hi everyone! I'm Somesh, President '22 with Ashvin. Developer by trade, I tinker with the web, apps, system design, and a bit of hardware. Currently an ECE Major at Shiv Nadar University.",
+    "country": "🇮🇳"
   },
   {
     "name": "Tushit",
-    "year": "1998",
-    "message": "Thanks Ankit for creating the group. Hi.. I'm Tushit, class of 1998. Based out of Bangalore. I recently joined an Indian startup building CMOS Image Sensors & Systems for Defence applications."
+    "year": 1998,
+    "message": "Thanks Ankit for creating the group. Hi.. I'm Tushit, class of 1998. Based out of Bangalore. I recently joined an Indian startup building CMOS Image Sensors & Systems for Defence applications.",
+    "country": "🇮🇳"
   },
   {
     "name": "Bhavya Khandelwal",
-    "year": "2019",
-    "message": "Hey folks! I’m Bhavya, batch of 2019. I did hardware, cryptic hunts and a little bit of everything at Exun. Currently working in software at Flipkart, developing a similar e-commerce product for the South African market, looking forward to connect with you all!"
+    "year": 2019,
+    "message": "Hey folks! I’m Bhavya, batch of 2019. I did hardware, cryptic hunts and a little bit of everything at Exun. Currently working in software at Flipkart, developing a similar e-commerce product for the South African market, looking forward to connect with you all!",
+    "country": "🇮🇳"
   },
   {
     "name": "Ashay Srivastava",
-    "year": "2022",
-    "message": "Hi Everyone! I’m Ashay Srivastava ’22, and I’m doing CS + Math at the University of Maryland, College Park. I am interested in NLP, vision-based research, and Finance. I’m looking forward to connecting with y’all 🙂"
+    "year": 2022,
+    "message": "Hi Everyone! I’m Ashay Srivastava ’22, and I’m doing CS + Math at the University of Maryland, College Park. I am interested in NLP, vision-based research, and Finance. I’m looking forward to connecting with y’all 🙂",
+    "country": "🇺🇸"
   },
   {
     "name": "Ashvin",
-    "year": "2022",
-    "message": "hey I'm Ashvin, Batch '22 President. Currently studying electrical/physics at Berkeley and dabbling in graphics. No idea where I'm going from here but excited to find out. Really happy to be here :)"
+    "year": 2022,
+    "message": "hey I'm Ashvin, Batch '22 President. Currently studying electrical/physics at Berkeley and dabbling in graphics. No idea where I'm going from here but excited to find out. Really happy to be here :)",
+    "country": "🇺🇸"
   },
   {
     "name": "Sid Nangia",
-    "year": "2007",
-    "message": "Hey folks! Sid Nangia here, graduated 2007. I’m currently in the SF, working at Apple. I run part of the Apple Watch electrical engineering team. Sounds like we need a Bay Area meetup! Happy to help organize it."
+    "year": 2007,
+    "message": "Hey folks! Sid Nangia here, graduated 2007. I’m currently in the SF, working at Apple. I run part of the Apple Watch electrical engineering team. Sounds like we need a Bay Area meetup! Happy to help organize it.",
+    "country": "🇺🇸"
   },
   {
     "name": "Gursher Aujla",
-    "year": "2019",
-    "message": "Hello everyone! I'm Gursher Aujla, VP Exun (’18–’19). I recently graduated from BITS Pilani and currently working on Liquid Rocket Engines at Skyroot Aerospace. Really glad this group was created and looking forward to connecting with all of you."
+    "year": 2019,
+    "message": "Hello everyone! I'm Gursher Aujla, VP Exun (’18–’19). I recently graduated from BITS Pilani and currently working on Liquid Rocket Engines at Skyroot Aerospace. Really glad this group was created and looking forward to connecting with all of you.",
+    "country": "🇮🇳"
   },
   {
-    "name":"Aman Verma",
-    "year":"2019",
-    "message":"Hi, I’m Aman Verma, 2019 Exun VP. I joined Exun in 2013 and was mostly involved with Programming and Cryptic Hunts. Just completed my undergrad from IIT Delhi and about to start as a trader at Jane Street in Hong Kong. Great initiative, would love to connect with Exunites all across the globe!"
+    "name": "Aman Verma",
+    "year": 2019,
+    "message": "Hi, I’m Aman Verma, 2019 Exun VP. I joined Exun in 2013 and was mostly involved with Programming and Cryptic Hunts. Just completed my undergrad from IIT Delhi and about to start as a trader at Jane Street in Hong Kong. Great initiative, would love to connect with Exunites all across the globe!",
+    "country": "🇭🇰"
   },
   {
     "name": "Madhav Shekhar Sharma",
-    "year": "2021",
-    "message": "Hi people! I’m Madhav - b/o 21. I’m just winding up my undergrad in EECS and math at UMich and am working as a robotics engineer in the Bay Area. Great to be here and would love saying hi to anyone close and far :))"
+    "year": 2021,
+    "message": "Hi people! I’m Madhav - b/o 21. I’m just winding up my undergrad in EECS and math at UMich and am working as a robotics engineer in the Bay Area. Great to be here and would love saying hi to anyone close and far :))",
+    "country": "🇺🇸"
   },
   {
     "name": "Vedant Singh",
-    "year": "2023",
-    "message": "Hi everyone! I'm Vedant, doing CS/Math at Stanford rn. I am interested in ML, Crypto and Finance. Looking forward to meet all of you in the Bay Area!"
+    "year": 2023,
+    "message": "Hi everyone! I'm Vedant, doing CS/Math at Stanford rn. I am interested in ML, Crypto and Finance. Looking forward to meet all of you in the Bay Area!",
+    "country": "🇺🇸"
   },
   {
     "name": "Natasha Arya",
-    "year": "2021",
-    "message": "Hi I’m Natasha 👋 I graduated in 2021 from RKP, and just wrapped up my undergrad in CS + Music at UC Berkeley. I’ll be working at Duolingo in NYC soon, would love to say hi to people around once I move :) Thanks for making this group!"
+    "year": 2021,
+    "message": "Hi I’m Natasha 👋 I graduated in 2021 from RKP, and just wrapped up my undergrad in CS + Music at UC Berkeley. I’ll be working at Duolingo in NYC soon, would love to say hi to people around once I move :) Thanks for making this group!",
+    "country": "🇺🇸"
   },
   {
     "name": "Mehul Srivastava",
-    "year": "2023",
-    "message": "Hello everyone 😄 I'm Mehul Srivastava (Class of 2023). I am currently pursuing a CS major at HKU. Would love to meet y'all :)"
+    "year": 2023,
+    "message": "Hello everyone 😄 I'm Mehul Srivastava (Class of 2023). I am currently pursuing a CS major at HKU. Would love to meet y'all :)",
+    "country": "🇭🇰"
   },
   {
     "name": "Aarshia Gupta",
-    "year": "2023",
-    "message": "Hi! I’m Aarshia, Class of 2023. I’m a Data Science major at UC San Diego. Excited to be here!"
+    "year": 2023,
+    "message": "Hi! I’m Aarshia, Class of 2023. I’m a Data Science major at UC San Diego. Excited to be here!",
+    "country": "🇺🇸"
   },
   {
     "name": "Pratishtha Batra",
-    "year": "2023",
-    "message": "Hi everyone! I'm Pratishtha, batch of 2023. I'm currently pursuing Electronics and Communication Engineering at IGDTUW. I was in group discussion at Exun and enjoy debating. Photography and filmmaking are the two hobbies I love spending time on. Really glad to be here!"
+    "year": 2023,
+    "message": "Hi everyone! I'm Pratishtha, batch of 2023. I'm currently pursuing Electronics and Communication Engineering at IGDTUW. I was in group discussion at Exun and enjoy debating. Photography and filmmaking are the two hobbies I love spending time on. Really glad to be here!",
+    "country": "🇮🇳"
   },
   {
     "name": "Nitin Gupta",
-    "year": "1997",
-    "message": "Hi! I’m Nitin Gupta, Class of 1997. Having own business settled in Gurgaon."
+    "year": 1997,
+    "message": "Hi! I’m Nitin Gupta, Class of 1997. Having own business settled in Gurgaon.",
+    "country": "🇮🇳"
   },
   {
     "name": "Pulkit Garg",
-    "year": "2022",
-    "message": "Hey! I’m Pulkit Garg, Class of 2022. I did game development and a bit of everything else too at Exun. Currently, I'm at UWaterloo studying CS and Cognitive Science with a specialization in fine arts."
+    "year": 2022,
+    "message": "Hey! I’m Pulkit Garg, Class of 2022. I did game development and a bit of everything else too at Exun. Currently, I'm at UWaterloo studying CS and Cognitive Science with a specialization in fine arts.",
+    "country": "🇨🇦"
   },
   {
     "name": "Kanishka Verma",
-    "year": "2024",
-    "message": "Hi! I'm Kanishka Verma, Exun 2020-24. I had the best four years doing different things at Exun, managing events, making friends and getting to know more about what I like to do. I love designing, debating, organizing events and well, talking & listening :p. Currently taking a year off to focus and reset. Extremely grateful to be here and I look forward to learning a lot from you all!"
+    "year": 2024,
+    "message": "Hi! I'm Kanishka Verma, Exun 2020-24. I had the best four years doing different things at Exun, managing events, making friends and getting to know more about what I like to do. I love designing, debating, organizing events and well, talking & listening :p. Currently taking a year off to focus and reset. Extremely grateful to be here and I look forward to learning a lot from you all!",
+    "country": "🇮🇳"
   },
   {
     "name": "Vishesh Saraswat",
-    "year": "2023",
-    "message": "Hi this is Vishesh, I graduated in 2023. I’m currently at IIITH."
+    "year": 2023,
+    "message": "Hi this is Vishesh, I graduated in 2023. I’m currently at IIITH.",
+    "country": "🇮🇳"
   },
   {
     "name": "Aaryak Garg",
-    "year": "2020",
-    "message": "Hey, I’m Aaryak. Was part of Exun - 2016-2020. Think I contributed in almost every dept (except GD :P). Enjoyed cryptic hunts the most. Miss sitting in Egurukul and doing the hunts with the whole team. I am APM @Predii - involved in the automotive industry, trying to help the aftersales & aftermarket. Love this, thanks for having me!"
+    "year": 2020,
+    "message": "Hey, I’m Aaryak. Was part of Exun - 2016-2020. Think I contributed in almost every dept (except GD :P). Enjoyed cryptic hunts the most. Miss sitting in Egurukul and doing the hunts with the whole team. I am APM @Predii - involved in the automotive industry, trying to help the aftersales & aftermarket. Love this, thanks for having me!",
+    "country": "🇮🇳"
   },
   {
     "name": "Kavin Valli",
-    "year": "2023",
-    "message": "Hey everyone! Kavin this side (Class of 2023). Currently doing Computer Engineering at UWaterloo."
+    "year": 2023,
+    "message": "Hey everyone! Kavin this side (Class of 2023). Currently doing Computer Engineering at UWaterloo.",
+    "country": "🇨🇦"
   },
   {
     "name": "Aadhya Dhar",
-    "year": "2023",
-    "message": "Hello! I’m Aadhya (Class of 2023) and I’m an undergraduate student at Lady Shri Ram College!"
+    "year": 2023,
+    "message": "Hello! I’m Aadhya (Class of 2023) and I’m an undergraduate student at Lady Shri Ram College!",
+    "country": "🇮🇳"
   },
   {
     "name": "Siddhartha Verma",
-    "year": "2024",
-    "message": "Hello, I'm Siddhartha (Class of 2024). I'm at VIT Vellore pursuing Mechanical Engineering and currently building Tarmac Media."
+    "year": 2024,
+    "message": "Hello, I'm Siddhartha (Class of 2024). I'm at VIT Vellore pursuing Mechanical Engineering and currently building Tarmac Media.",
+    "country": "🇮🇳"
   },
   {
     "name": "Sneha Chandra",
-    "year": "2023",
-    "message": "Helloo, I'm Sneha. I graduated in 2023. I'm at NTU Singapore doing Materials Science."
+    "year": 2023,
+    "message": "Helloo, I'm Sneha. I graduated in 2023. I'm at NTU Singapore doing Materials Science.",
+    "country": "🇸🇬"
   },
   {
     "name": "Shireen Rajora",
-    "year": "2023",
-    "message": "Hi everyone, I’m Shireen (Class of 2023) and I’m doing my undergrad at UWaterloo."
+    "year": 2023,
+    "message": "Hi everyone, I’m Shireen (Class of 2023) and I’m doing my undergrad at UWaterloo.",
+    "country": "🇨🇦"
   },
   {
     "name": "Ritin Pachnanda",
-    "year": "2019",
-    "message": "Hey, I’m Ritin Pachnanda! Exun 2014-19. Graduated from UPenn last year and now I’m back in Delhi working on mrmr.social with Avi Chandra. Super excited for this!"
+    "year": 2019,
+    "message": "Hey, I’m Ritin Pachnanda! Exun 2014-19. Graduated from UPenn last year and now I’m back in Delhi working on mrmr.social with Avi Chandra. Super excited for this!",
+    "country": "🇮🇳"
   },
   {
     "name": "Shashwat Goel",
-    "year": "2019",
-    "message": "Hey, I'm Shashwat, Exun 2014-19. Over these years, I had a blast trying a bunch of things, eventually converging on programming and NLP. Graduated from IIIT Hyderabad, I'll now be doing a PhD in Deep Learning at the Max Planck Institute in Tübingen Germany. Really cool to be here."
+    "year": 2019,
+    "message": "Hey, I'm Shashwat, Exun 2014-19. Over these years, I had a blast trying a bunch of things, eventually converging on programming and NLP. Graduated from IIIT Hyderabad, I'll now be doing a PhD in Deep Learning at the Max Planck Institute in Tübingen Germany. Really cool to be here.",
+    "country": "🇩🇪"
   },
   {
     "name": "Rajat Sodhi",
-    "year": "1999",
-    "message": "Hello, this Is Rajat, I graduated 1999 batch. I am an architect and live in New Delhi. Currently I am a Professor teaching Design at Sushant University in Gurugram. My work is based around the field of biomimicry - using algorithms and computational design to mimic natural phenomenon and use that to create architectural form. I’ve built 3D printers and research robotic fabrication. Also a part time carpenter and happy to be here :)"
+    "year": 1999,
+    "message": "Hello, this Is Rajat, I graduated 1999 batch. I am an architect and live in New Delhi. Currently I am a Professor teaching Design at Sushant University in Gurugram. My work is based around the field of biomimicry - using algorithms and computational design to mimic natural phenomenon and use that to create architectural form. I’ve built 3D printers and research robotic fabrication. Also a part time carpenter and happy to be here :)",
+    "country": "🇮🇳"
   },
   {
     "name": "Angad Singh",
-    "year": "2022",
-    "message": "Hi! I’m Angad, I graduated in 2022 and I’m an undergrad at Ashoka University."
+    "year": 2022,
+    "message": "Hi! I’m Angad, I graduated in 2022 and I’m an undergrad at Ashoka University.",
+    "country": "🇮🇳"
   },
   {
     "name": "Manas",
-    "year": "2001",
-    "message": "Hello this is manas. I was Exun 95-2001. I went to NSIT Delhi and then to grad school at MIT Media Lab and was a PhD student at UC Berkeley CS. I work at Uber where I lead our advertising and membership products."
+    "year": 2001,
+    "message": "Hello this is manas. I was Exun 95-2001. I went to NSIT Delhi and then to grad school at MIT Media Lab and was a PhD student at UC Berkeley CS. I work at Uber where I lead our advertising and membership products.",
+    "country": "🇺🇸"
   },
   {
     "name": "Madhav Narayan",
-    "year": "2015",
-    "message": "Hi there! I’m Madhav from the batch of 2015. Barely an Exun member, my stint last around two months (joined at the end of 12th, Exun (e)Lite?), but I have fond memories of the many member friends and seniors who supported and included me in all the fun tech stuff throughout. Recently moved to London where I work as a software engineer. Excited to meet you all virtually and in person sometime!"
+    "year": 2015,
+    "message": "Hi there! I’m Madhav from the batch of 2015. Barely an Exun member, my stint last around two months (joined at the end of 12th, Exun (e)Lite?), but I have fond memories of the many member friends and seniors who supported and included me in all the fun tech stuff throughout. Recently moved to London where I work as a software engineer. Excited to meet you all virtually and in person sometime!",
+    "country": "🇬🇧"
   },
   {
     "name": "Rudraneel Sinha",
-    "year": "2022",
-    "message": "Hi! I’m Rudraneel, graduated from RKP in 2022. I used to be a 3D modeller in Exun in addition to handling SpaceTech. Currently a CS major at Purdue doing research on finding GPU architectural optimisations for differentially private ML. Excited to be a part of this group, many memories with the club!"
+    "year": 2022,
+    "message": "Hi! I’m Rudraneel, graduated from RKP in 2022. I used to be a 3D modeller in Exun in addition to handling SpaceTech. Currently a CS major at Purdue doing research on finding GPU architectural optimisations for differentially private ML. Excited to be a part of this group, many memories with the club!",
+    "country": "🇺🇸"
   },
   {
     "name": "Diwank",
-    "year": "2011",
-    "message": "Hi hi. Diwank here. Living in nyc. Working on an AI startup — julep.ai"
+    "year": 2011,
+    "message": "Hi hi. Diwank here. Living in nyc. Working on an AI startup — julep.ai",
+    "country": "🇺🇸"
   },
   {
     "name": "Shubham Goel",
-    "year": "2012",
+    "year": 2012,
     "message": "Hi guys :) I’m Shubham Goel.  Graduated from RKP in 2012. In between things right now, but my last job was building a company called Affinity.co in the US for the last decade. Excited for this group!!"
   },
   {
     "name": "Gaurav Lochan",
-    "year": "1995",
-    "message": "I'm Gaurav Lochan. I graduated in 1995. I live in Palo Alto and work as a director of engineering for PhonePe (in the US)."
+    "year": 1995,
+    "message": "I'm Gaurav Lochan. I graduated in 1995. I live in Palo Alto and work as a director of engineering for PhonePe (in the US).",
+    "country": "🇺🇸"
   },
   {
     "name": "Udai P",
-    "year": "1999",
-    "message": "Will be great to reconnect. I don't even remember much but we graduated 1999 and used to prank Mukesh sir and spy on him as he sang Mukesh songs secretly in the server room."
+    "year": 1999,
+    "message": "Will be great to reconnect. I don't even remember much but we graduated 1999 and used to prank Mukesh sir and spy on him as he sang Mukesh songs secretly in the server room.",
+    "country": "🇮🇳"
   },
   {
     "name": "Krithika Rangarajan",
-    "year": "2004",
-    "message": "Hello hello, thank you for getting this group together .. I am Krithika Rangarajan- Exun batch of 2004 . I’m now an associate professor of Radiology in AIIMS Delhi, great to meet you all !"
+    "year": 2004,
+    "message": "Hello hello, thank you for getting this group together .. I am Krithika Rangarajan- Exun batch of 2004 . I’m now an associate professor of Radiology in AIIMS Delhi, great to meet you all !",
+    "country": "🇮🇳"
   },
   {
     "name": "Udit Mehrotra",
-    "year": "1998",
-    "message": "Hello everyone, I am Udit Mehrotra, Class of 1998. Don't remember what I did at Exun exactly , but it was a lot of fun 🙂 glad to be here! based in new delhi"
+    "year": 1998,
+    "message": "Hello everyone, I am Udit Mehrotra, Class of 1998. Don't remember what I did at Exun exactly , but it was a lot of fun 🙂 glad to be here! based in new delhi",
+    "country": "🇮🇳"
   },
   {
     "name": "Mrinal Sinha",
-    "year": "1997",
-    "message": "Hello Exun alums 😊. This is Mrinal Sinha, Class of 1997. How are you @Udit Mehrotra ?"
+    "year": 1997,
+    "message": "Hello Exun alums 😊. This is Mrinal Sinha, Class of 1997. How are you @Udit Mehrotra ?",
+    "country": "🇮🇳"
   },
   {
     "name": "Mohit Taneja",
-    "year": "2007",
-    "message": "Hello hello, Mohit Taneja 2007, I am in Austin, Texas. I work as a Product Manager at Arm, and help define our data center and 5G/6G IP roadmaps."
+    "year": 2007,
+    "message": "Hello hello, Mohit Taneja 2007, I am in Austin, Texas. I work as a Product Manager at Arm, and help define our data center and 5G/6G IP roadmaps.",
+    "country": "🇺🇸"
   },
   {
     "name": "Aarman Roy",
-    "year": "2014",
-    "message": "Hi realize I didn’t give an introduction: im Aarman, I graduated in 2014 from RKP. I live in NYC rn and work as a designer at an ad agency called Mojo Supermarket (no it’s not a supermarket haha)"
+    "year": 2014,
+    "message": "Hi realize I didn’t give an introduction: im Aarman, I graduated in 2014 from RKP. I live in NYC rn and work as a designer at an ad agency called Mojo Supermarket (no it’s not a supermarket haha)",
+    "country": "🇺🇸"
   },
   {
     "name": "Ananay Arora",
-    "year": "2017",
-    "message": "Hi everyone! I'm Ananay - President, Class of 2016-17. I'm currently working at Legix as a founding engineer based in Phoenix, AZ. Fun fact - I love to DJ as a hobby. Looking forward to meeting you all!"
+    "year": 2017,
+    "message": "Hi everyone! I'm Ananay - President, Class of 2016-17. I'm currently working at Legix as a founding engineer based in Phoenix, AZ. Fun fact - I love to DJ as a hobby. Looking forward to meeting you all!",
+    "country": "🇺🇸"
   },
   {
     "name": "Bharat Kashyap",
-    "year": "2015",
-    "message": "Thanks Ankit for taking the lead on this! I'm Bharat, President in 2015. Engineer in open-source dev tools currently, worked in tech for consulting before this. Very excited to have the alumni group going :)"
+    "year": 2015,
+    "message": "Thanks Ankit for taking the lead on this! I'm Bharat, President in 2015. Engineer in open-source dev tools currently, worked in tech for consulting before this. Very excited to have the alumni group going :)",
+    "country": "🇮🇳"
   },
   {
     "name": "Jawahar",
-    "year": "2000",
-    "message": "2000 Vice President along with Ankit. These days, I work on incubating newer business within larger companies, currently in media and streaming, previously Samsung. Maryland/Stern alum (and IIT dropout?) Residing in the NYC area. Always happy to connect"
+    "year": 2000,
+    "message": "2000 Vice President along with Ankit. These days, I work on incubating newer business within larger companies, currently in media and streaming, previously Samsung. Maryland/Stern alum (and IIT dropout?) Residing in the NYC area. Always happy to connect",
+    "country": "🇺🇸"
   },
   {
     "name": "Prannay Khosla",
-    "year": "2015",
-    "message": "2014-15, currently an Entrepreneur as well, based out of SF. Worked in self driving and HFT before this. IIT 2019."
+    "year": 2015,
+    "message": "2014-15, currently an Entrepreneur as well, based out of SF. Worked in self driving and HFT before this. IIT 2019.",
+    "country": "🇺🇸"
   },
   {
     "name": "Gursartaj Singh Nijjar",
-    "year": "2007",
-    "message": "2007, President alongside Working at barclays in the M&A team in Mumbai. Studied at stephens/iim bangalore Been mostly in finance since 2010! Great to finally having our own alumni network!"
+    "year": 2007,
+    "message": "2007, President alongside Working at barclays in the M&A team in Mumbai. Studied at stephens/iim bangalore Been mostly in finance since 2010! Great to finally having our own alumni network!",
+    "country": "🇮🇳"
   },
   {
     "name": "Aryaman Chandra",
-    "year": "2022",
-    "message": "Hi! I am Aryaman Chandra. Exun 2022 - I am currently a student and a freelance developer and designer"
+    "year": 2022,
+    "message": "Hi! I am Aryaman Chandra. Exun 2022 - I am currently a student and a freelance developer and designer",
+    "country": "🇮🇳"
   },
   {
     "name": "Ankit Wadhwa",
-    "year": "2000",
-    "message": "2000, President - now an entrepreneur, having built and exited two sizable tech companies. Currently working on my third venture in crypto. I spent 7 years in consulting before transitioning to entrepreneurship. I'm an IIT/Wharton alum and a proud father of a 5-year-old. Always happy to connect—feel free to reach out!"
+    "year": 2000,
+    "message": "2000, President - now an entrepreneur, having built and exited two sizable tech companies. Currently working on my third venture in crypto. I spent 7 years in consulting before transitioning to entrepreneurship. I'm an IIT/Wharton alum and a proud father of a 5-year-old. Always happy to connect—feel free to reach out!",
+    "country": "🇮🇳"
   }
 ]
