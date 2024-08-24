@@ -82,7 +82,9 @@
                   <br />
                   <span class="year">Exun ${
                     intro.year ?? "Unspecified"
-                  }</span>  <span class="divider">|</span>  ${intro.country}
+                  }</span>  <span class="divider">|</span>  ${
+            intro.country ?? "Unspecified"
+          }
                 </p>
                 <p class="message">${intro.message}</p>
               `;
