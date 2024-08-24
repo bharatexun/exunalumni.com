@@ -66,8 +66,12 @@
         introductions.forEach((intro) => {
           // Only construct the filter sets for the first time
           if (!setup) {
-            yearSet.add(intro.year);
-            countrySet.add(intro.country ?? "Unspecified");
+            if (intro.year) {
+              yearSet.add(intro.year);
+            }
+            if (intro.country) {
+              countrySet.add(intro.country);
+            }
           }
 
           const div = document.createElement("div");
@@ -76,7 +80,9 @@
                 <p class="name">
                   ${intro.name}
                   <br />
-                  <span class="year">Exun ${intro.year}</span>  <span class="divider">|</span>  ${intro.country}
+                  <span class="year">Exun ${
+                    intro.year ?? "Unspecified"
+                  }</span>  <span class="divider">|</span>  ${intro.country}
                 </p>
                 <p class="message">${intro.message}</p>
               `;
