@@ -20,6 +20,14 @@ h3 {
   color: #0066cc;
 }
 
+a {
+  color: #0066ccee;
+}
+
+a:visited {
+  color: #6600ccee;
+}
+
 #sticky-header {
   max-width: 100vw;
   overflow-x: hidden;
