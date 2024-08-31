@@ -5,6 +5,11 @@
       "source": "/",
       "destination": "/intro",
       "permanent": false
+    },
+    {
+      "source": "/letter",
+      "destination": "/letter-init",
+      "permanent": true
     }
   ],
   "trailingSlash": false
