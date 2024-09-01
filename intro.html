@@ -16,7 +16,10 @@
       let setup = false;
       let yearSet = new Set();
       let countrySet = new Set();
-      const searchParams = new URLSearchParams(window.location.search);
+      const url = new URL(window.location.href);
+      const searchParams = url.searchParams;
+      // TODO: Remove this when thts page gets server-side rendered
+      const anchor = url.hash;
       let year = searchParams.get("year");
       let country = searchParams.get("country");
 
@@ -30,6 +33,9 @@
           const response = await fetch("/data/intro.json");
           fetched = await response.json();
           showIntroductions(fetched);
+          if (anchor) {
+            scrollToAnchor();
+          }
         } catch (error) {
           console.error("Error loading introductions:", error);
         }
@@ -75,10 +81,17 @@
           }
 
           const div = document.createElement("div");
+          const introId = `${intro.name.replace(/\s+/g, "-").toLowerCase()}-${
+            intro.year || "unknown"
+          }`;
           div.className = "introduction";
+          div.id = introId;
           div.innerHTML = `
-                <p class="name">
-                  ${intro.name}
+                <p class="name">   
+                  <a href="#${introId}" class="anchor-link" title="Link to this introduction">
+                    ${intro.name}
+                  <span class="anchor-icon"><svg><use xlink:href="#anchor-link-icon"></use></svg></span>
+                  </a>                                                   
                   <br />
                   <span class="year">Exun ${
                     intro.year ?? "Unspecified"
@@ -147,10 +160,29 @@
         showIntroductions(filtered);
       }
 
+      function scrollToAnchor() {
+        const element = document.querySelector(anchor);
+        if (element) {
+          element.scrollIntoView();
+        }
+      }
+
       window.addEventListener("DOMContentLoaded", init);
     </script>
   </head>
   <body>
+    <body>
+      <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+        <symbol id="anchor-link-icon" viewBox="0 0 15 15">
+          <path
+            d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"
+          />
+          <path
+            d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"
+          />
+        </symbol>
+      </svg>
+    </body>
     <h1 id="sticky-header">
       EXUN ALUMNI <br />
       NETWORK
