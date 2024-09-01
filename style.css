@@ -127,6 +127,26 @@ ul {
   margin-top: 10px;
 }
 
+.name .anchor-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.name .anchor-icon {
+  display: none;
+  margin-left: 5px;
+}
+
+.name .anchor-link:hover .anchor-icon {
+  display: inline-block;
+}
+
+.name .anchor-icon svg {
+  width: 15px;
+  height: 15px;
+  fill: currentColor;
+}
+
 /*
  * Skeleton loading styles
 */
