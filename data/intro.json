@@ -1,5 +1,102 @@
 [
   {
+    "name": "Shashwat Mundra",
+    "year": 2022,
+    "message": "Hey everyone, I'm Shashwat Mundra, vice president Exun '22. I used to do quizzing, linguistics, and cryptic hunts during my time at Exun. I'm currently a junior at UIUC studying computer science. Excited to connect with everyone!",
+    "country": "🇺🇸"
+  },
+  {
+    "name": "Tanish Pratap",
+    "year": 2015,
+    "message": "Hi everyone! I’m Tanish, batch of 2015. I’m currently based in Philadelphia, externing with a sustainability-tech startup. I’ll be heading to Chicago in a couple of months to continue my full-time consulting role. Excited to meet you all!",
+    "country": "🇺🇸"
+  },
+  {
+    "name": "Aravind Ashok",
+    "year": 2020,
+    "message": "Hey everyone, great to see you all together! I'm Aravind, Chief Advisor Exun 2020, and I'm currently pursuing my Master's in Communication Science at the University of Amsterdam. Would love to set-up an European meet-up if people are nearby and interested :)",
+    "country": "🇳🇱"
+  },
+  {
+    "name": "Aditya Manglik",
+    "year": 2013,
+    "message": "Hi, I am Aditya Manglik, was a part of Exun 2013. Currently finishing up grad school at ETH Zürich. Happy to connect!",
+    "country": "🇨🇭"
+  },
+  {
+    "name": "Aniket Negi",
+    "year": 2022,
+    "message": "Hello! I'm Aniket, Hardware Head Exun 2022. I'm currently a sophomore at NSUT. Really excited to be a part of the network. Cheers!",
+    "country": "🇮🇳"
+  },
+  {
+    "name": "Sagnik Anupam",
+    "year": 2020,
+    "message": "Hi everyone, I'm Sagnik Anupam, Exun batch of 2020. I used to do quizzing, linguistics, and machine learning at Exun. I recently graduated from MIT, where I studied computer science and math, and I just started my PhD at the University of Pennsylvania studying programming languages and machine learning. Happy to connect with folks, and although I'm based out of Philadelphia, I will be in NYC/Boston frequently.",
+    "country": "🇺🇸"
+  },
+  {
+    "name": "Arsh Malik",
+    "year": 2021,
+    "message": "Hi everyone, I’m Arsh Malik, class of 2021. I used to do full stack dev at Exun. I’m going into my senior year at UCLA, where I’m pursuing my CS degree. Currently, I do research in Quantum Computing and shall be pursuing a PhD in this field in the near future. I’m based out of Los Angeles (SoCal), but I do visit bay area for conferences and meetups. Happy to connect with y’all.",
+    "country": "🇺🇸"
+  },
+  {
+    "name": "Sneha Pandey",
+    "year": 2024,
+    "message": "Hey! I'm Sneha, batch of '24. Currently pursuing my undergrad at IGDTUW. I am interested in finance and startups. I also love to dabble in aerospace and design when I get the chance:). Glad to be here!",
+    "country": "🇮🇳"
+  },
+  {
+    "name": "Dhananjay Bhattacharya",
+    "year": 2024,
+    "message": "Hello fellow Exun Alumni. I am Dhananjay Bhattacharya from the batch of 2024. I am currently pursuing my undergrad in CS from BITS Pilani, Goa Campus. As of now, I have interests in competitive programming and web development, but I am also interested in finance, startups, and entrepreneurship.",
+    "country": "🇮🇳"
+  },
+  {
+    "name": "Alhad Sethi",
+    "year": 2021,
+    "message": "Hi! I'm Alhad, class of 2021. In my final year at IIIT Delhi, interested in math, machine learning, and research.",
+    "country": "🇮🇳"
+  },
+  {
+    "name": "Upamanyu Das",
+    "year": 2020,
+    "message": "Hi guys, I’m Upamanyu Das, Exun batch of 2020. I was in the hardware and audio department and used to make music and DJ for fun. I’m currently a third-year med student at Muzaffarnagar Medical College and have a very strong interest in the application of AI to medicine and want to pursue this as a research career in the future. I’m happy to see so many people from school here again!",
+    "country": "🇮🇳"
+  },
+  {
+    "name": "Areeb Nabi",
+    "year": 2021,
+    "message": "Hi, everyone I'm Areeb from the batch of 2021. Currently in my fourth year of law school at NLSIU. Great to connect with everyone here!",
+    "country": "🇮🇳"
+  },
+  {
+    "name": "Vir Malhotra",
+    "year": 2022,
+    "message": "Hi guys, I’m Vir Malhotra, Exun batch of 2022. I used to be in the Group Discussion department, and am now studying CS and music tech at NYU Abu Dhabi. As of now, I have interests in applied CS to music or finance, but who knows where I’ll end up. I’ll be in New York for the next few months so if anyone is here I would love to chat!",
+    "country": "🇦🇪"
+  },
+  {
+    "name": "Sameer Chadha",
+    "year": 2019,
+    "message": "Hi all, I’m Sameer Chadha, EXUN batch of 2019. I pursued my Undergrad in Economics with a specialization in Finance from NMIMS Mumbai. I’m currently working as a Luxury Real Estate Advisor at Sotheby’s International Realty. I look after markets like Delhi, Mumbai, and Goa and also handle residency by investment. Happy to be here and connect with you all, looking forward to meeting you all in person and having a great time!",
+    "country": "🇮🇳"
+  },
+  {
+    "name": "Tanish Goel",
+    "year": 2020,
+    "message": "Hi everyone, Tanish here, Exun 2020. I studied computing with AI at Imperial College London and I am currently a quant at Goldman Sachs in their systematic trading team. It will be cool to connect with people based in London.",
+    "country": "🇬🇧"
+  },
+  {
+    "name": "Aditya Batra",
+    "year": 2020,
+    "message": "Hey all, I’m Aditya (Exun 2020). I’m currently studying computer science at the University of Waterloo with a specialization in AI and a minor in economics. Happy to connect with everyone!",
+    "country": "🇨🇦"
+  },
+
+  {
     "name": "Tanmay Arora",
     "year": 2023,
     "message": "Hey everyone! I'm Tanmay Arora (Vice President, Class of 2023). I'm currently majoring in Cyber Physical Systems Engineering at Manipal. During my time at Exun I was mostly involved with the Quiz and Cryptic Hunts departments. I'm a generalist at heart and love to write, travel, run among other things. I'm currently interested in startups, and also writing at my blog: https://tanmay.bearblog.dev. It's really great to connect with everyone here!",
