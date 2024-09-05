@@ -1,5 +1,41 @@
 [
   {
+    "name": "Aishwarya Kane",
+    "year": 2012,
+    "message": "Hi everyone! This is Aishwarya Kane, graduated from RKP in 2012 and NLU Delhi in 2017. I'm now a lawyer based in Delhi, mostly focused on intellectual property and tech law. Great to be in touch!",
+    "country": "🇮🇳"
+  },
+  {
+    "name": "Vidur",
+    "year": 2014,
+    "message": "Hey all, I’m Vidur, I was head dogsbody from 2008-2014. It’ll take a while for all the memorable incidents to come flooding back, but the one that comes to mind immediately is when we filled the basement of Blossoms Block with gaming PCs in 2013 or 2012. Definitely the best use of a classroom during my time at school 🥲",
+    "country": "🇮🇳"
+  },
+  {
+    "name": "Radhika",
+    "year": 2008,
+    "message": "Also live in the Bay :) Was RKP batch of 2008, now work in venture capital. Would love to see other folks around the area",
+    "country": "🇺🇸"
+  },
+  {
+    "name": "Aneesh",
+    "year": 2018,
+    "message": "Hi! I’m Aneesh. I was batch of 2018, and now live in San Francisco, working in self-driving/robotics!! Happy to be here 🥳",
+    "country": "🇺🇸"
+  },
+  {
+    "name": "Yash Sahoo",
+    "year": 2022,
+    "message": "Hi everyone! I'm Yash Sahoo, a hardware member from the batch of 2022. Currently, I'm pursuing Electronics and Communication Engineering at BITS Pilani. The two Exun events in which I participated were online due to COVID, and I fondly remember working with my department mates till late at night. Looking forward to connecting with everyone here!",
+    "country": "🇮🇳"
+  },  
+  {
+    "name": "Sakshi Gupta",
+    "year": 2011,
+    "message": "🙋🏻‍♀️ Also in SF! Hey everyone, I’m Sakshi Gupta! Batch of 2011, I was in Exun from 2007-2011, easily the best part of my school life :) I work at Databricks now!",
+    "country": "🇺🇸"
+  },
+  {
     "name": "Tushaar Talwar",
     "year": 2009,
     "message": "Hi, I'm Tushaar Talwar, batch of 2009. I used to do web design back then. I'm a non-tech Exun alumni, I did law from NLSIU Bangalore (2014) and worked at a law firm. Now I practice corporate law independently (startups, founders, HNI transactions) and also dabble in some amateur tech projects for specialized use (scraping, filtering, etc). Great to see some familiar names here!",
