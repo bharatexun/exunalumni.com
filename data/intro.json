@@ -1,5 +1,77 @@
 [
   {
+    "name": "Tapas Gupta",
+    "year": 2014,
+    "message": "Hi everyone. I'm Tapas Gupta. I graduated from DPS RKP in 2014. I studied Commerce at Hansraj College and DSE. I have been working in the public sector for the last four years, primarily government higher education institutions on the administrative side. Currently serving JNU and managing Finance and Accounts here. Happy to be here!",
+    "country": "🇮🇳"
+  },
+  {
+    "name": "Aditya Singh",
+    "year": 2020,
+    "message": "Hi all! I'm Aditya Singh, batch of 2020. Used to do hardware in Exun. Graduated EE@IITD this year, and working at Sprinklr in Gurgaon as a backend engineer. Excited to connect back with everyone, and would love to collaborate on any ideas too!",
+    "country": "🇮🇳"
+  },
+  {
+    "name": "Yoovan Pattnaik",
+    "year": 2024,
+    "message": "Hello everyone. I'm Yoovan Pattnaik, batch of 2024. Was part of the quiz and cross department. Currently I'm a first year at MIT Manipal pursuing CSE with a specialisation in AI/ML. Not much is going on in my life right now, but I hope to change that soon.",
+    "country": "🇮🇳"
+  },
+  {
+    "name": "Akshit",
+    "year": 2020,
+    "message": "Hey! I’m Akshit, a fourth-year CS and linguistics student at IIIT Hyderabad. I worked with web and mobile apps at Exun and I can't imagine where I’d be without those initial years of just having fun with computers. I’m currently working on dependency parsing for low-resource languages and have a strong interest in programming language theory and philosophy.",
+    "country": "🇮🇳"
+  },
+  {
+    "name": "Adi Mathur",
+    "year": 2024,
+    "message": "Hi everyone! I'm Adi Mathur, Vice President 2024. I'm currently in my first year at IIT Delhi, planning to do projects in robotics and music production. Glad to be here!",
+    "country": "🇮🇳"
+  },
+  {
+    "name": "Prateek Rungta",
+    "year": 2005,
+    "message": "Hi folks! I’m Prateek Rungta, Head Programmer, batch of 2005. I’m currently based in Bangalore and have been running a web design shop with fellow batchmate & Exun member @+91 98101 44545. I can trace the genesis of this all the way back to a session at Exun by our senior Mukul (?) who decided to take an after-school session for then current Exun members introducing us to PHP and dynamic web pages. 🙏",
+    "country": "🇮🇳"
+  },
+  {
+    "name": "Shivansh Bhatnagar",
+    "year": 2023,
+    "message": "Hi everyone! I'm Shivansh Bhatnagar, batch of 2023. I used to be a part of the quizzing and crossword department in Exun. I'm currently pursuing Math and Computer Science at BITS Pilani. Really happy to be here!",
+    "country": "🇮🇳"
+  },
+  {
+    "name": "Swati Gupta",
+    "year": 2006,
+    "message": "Hi everyone! I am Swati Gupta, batch of 2006. Way older than most on this group! :) I’m currently a faculty at MIT, in Operations Research and Statistics. I work on algorithmic fairness, optimization, and machine learning.",
+    "country": "🇺🇸"
+  },
+  {
+    "name": "Priyansh Bansal",
+    "year": 2023,
+    "message": "Hi everyone! I’m Priyansh Bansal, batch of 2023. I’m currently a sophomore at the University of Wisconsin-Madison, pursuing Computer Science and Data Science. Excited to connect with all of you!",
+    "country": "🇺🇸"
+  },
+  {
+    "name": "Rishabh Marya",
+    "year": 2012,
+    "message": "Hi! I'm Rishabh Marya, batch of 2012. Spent 7 years in the bay working at Meta, before moving back to Delhi to be with family. Currently working on a stealth startup, splitting time between California and India.",
+    "country": "🇮🇳/🇺🇸"
+  },
+  {
+    "name": "Anup",
+    "year": 2024,
+    "message": "Hi! I'm Anup. I was RKP batch of 2024. Currently, I'm a first-year at IIIT Delhi, CS with minor in Design. Pleased to be here :P",
+    "country": "🇮🇳"
+  },
+  {
+    "name": "Baibhav",
+    "year": 2018,
+    "message": "Hi everyone! I’m Baibhav. Graduated RKP in 2018 and am now working full time in Seattle.",
+    "country": "🇺🇸"
+  },
+  {
     "name": "Aishwarya Kane",
     "year": 2012,
     "message": "Hi everyone! This is Aishwarya Kane, graduated from RKP in 2012 and NLU Delhi in 2017. I'm now a lawyer based in Delhi, mostly focused on intellectual property and tech law. Great to be in touch!",
@@ -28,7 +100,7 @@
     "year": 2022,
     "message": "Hi everyone! I'm Yash Sahoo, a hardware member from the batch of 2022. Currently, I'm pursuing Electronics and Communication Engineering at BITS Pilani. The two Exun events in which I participated were online due to COVID, and I fondly remember working with my department mates till late at night. Looking forward to connecting with everyone here!",
     "country": "🇮🇳"
-  },  
+  },
   {
     "name": "Sakshi Gupta",
     "year": 2011,
