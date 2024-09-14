@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="style.css" />
     <script>
       let fetched = [];
+      const url = new URL(window.location.href);
+      const anchor = url.hash;
 
       function init() {
         loadEvents();
@@ -23,6 +25,9 @@
           const response = await fetch("/data/events.json");
           fetched = await response.json();
           showEvents(fetched);
+          if (anchor) {
+            scrollToAnchor();
+          }
         } catch (error) {
           console.error("Error loading events:", error);
         }
@@ -84,6 +89,13 @@
           year: "numeric",
         };
         return new Date(dateString).toLocaleDateString("en-US", options);
+      }
+
+      function scrollToAnchor() {
+        const element = document.querySelector(anchor);
+        if (element) {
+          element.scrollIntoView();
+        }
       }
 
       window.addEventListener("DOMContentLoaded", init);
