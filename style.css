@@ -1,6 +1,31 @@
+html {
+  min-height: 100%;
+  height: auto;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --blue: #007bff;
+  --blue-sharp: #0066cc;
+  --blue-soft: #0066ccee;
+  --blue-dark: #2c3e50;
+  --purple-sharp: #6600ccee;
+  --grey-soft: #f5f5f5;
+  --grey-softer: #e0e0e0;
+  --black: #333;
+  --grey-darkest: #444;
+  --grey-darker: #444;
+  --grey: #666;
+  --grey-light: #777;
+  --grey-lightest: #ccc;
+  --grey-slate: #ffee0009;
+  --silver-light: hsl(200, 20%, 80%);
+  --silver-dark: hsl(200, 20%, 95%);
+}
+
 body {
   line-height: 1.6;
-  color: #333;
+  color: var(--black);
   max-width: 600px;
   margin: 0 auto;
   padding: 0;
@@ -17,15 +42,15 @@ body {
 h1,
 h2,
 h3 {
-  color: #0066cc;
+  color: var(--blue-sharp);
 }
 
 a {
-  color: #0066ccee;
+  color: var(--blue);
 }
 
 a:visited {
-  color: #6600ccee;
+  color: var(--purple-sharp);
 }
 
 #sticky-header {
@@ -62,9 +87,9 @@ a:visited {
 }
 
 .highlight {
-  background-color: #ffee0009;
+  background-color: var(--grey-slate);
   padding: 10px;
-  border-left: 4px solid #0066cc;
+  border-left: 4px solid var(--blue-sharp);
   margin-bottom: 20px;
 }
 
@@ -74,7 +99,7 @@ ul {
 
 .footer {
   margin-top: 20px;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid var(--grey-lightest);
   padding-top: 10px;
 }
 
@@ -84,7 +109,7 @@ ul {
 
 .introduction {
   margin-bottom: 30px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid var(--grey-lightest);
   padding-bottom: 20px;
 }
 
@@ -102,12 +127,12 @@ ul {
 
 .name {
   font-weight: bold;
-  color: #0066cc;
+  color: var(--blue-sharp);
 }
 
 .year {
   font-size: 0.9em;
-  color: #666;
+  color: var(--grey);
   margin-top: 0;
   margin-bottom: 10px;
 }
@@ -118,7 +143,7 @@ ul {
 
 .job-message {
   font-style: italic;
-  border-left: 4px solid #ccc;
+  border-left: 4px solid var(--grey-lightest);
   padding-left: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -128,18 +153,18 @@ ul {
 
 .meta {
   font-size: 0.9em;
-  color: #555;
+  color: var(--grey-darker);
   margin-top: 0;
   margin-bottom: 10px;
 }
 
 .divider {
-  color: #ccc;
+  color: var(--grey-light);
 }
 
 .country {
   font-size: 0.8em;
-  color: #777;
+  color: var(--grey-darker);
   margin-top: 0;
   margin-bottom: 10px;
 }
@@ -178,10 +203,10 @@ ul {
 
 @keyframes skeleton-loading {
   0% {
-    background-color: hsl(200, 20%, 80%);
+    background-color: var(--silver-light);
   }
   100% {
-    background-color: hsl(200, 20%, 95%);
+    background-color: var(--silver-dark);
   }
 }
 
@@ -210,14 +235,62 @@ ul {
 select {
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  color: #666;
+  color: var(--grey-darker);
   padding: 0.25rem;
-  border: 1px solid #ccc;
+  border: 1px solid var(--grey-lightest);
   border-radius: 0.25rem;
-  box-shadow: 1px 1px 5px -2px #0066cc;
+  box-shadow: 1px 1px 5px -2px var(--blue-sharp);
   text-align: center;
 }
 
 #filter-stats {
   text-align: center;
+}
+
+/*
+  * Event styles
+  */
+
+.event {
+  margin-bottom: 2rem;
+  padding: 0.625rem 1.5625rem;
+  border: 0.0625rem solid var(--border-color); /* 1px / 16px = 0.0625rem */
+  border-left: 0.3125rem solid var(--primary-color); /* 5px / 16px = 0.3125rem */
+  border-radius: 0.5rem; /* 8px / 16px = 0.5rem */
+  box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.1); /* 2px 5px / 16px */
+  background-color: #ffffff;
+  transition: box-shadow 0.3s ease;
+  scroll-margin-top: 6px;
+}
+
+.event:hover {
+  box-shadow: 0 0.3125rem 0.9375rem rgba(0, 0, 0, 0.1); /* 5px 15px / 16px */
+}
+
+.event .name {
+  font-size: 1.5rem;
+  margin-bottom: 0.9375rem;
+  padding-bottom: 0.625rem;
+  border-bottom: 0.125rem solid #f0f0f0;
+  color: var(--blue-dark); /* New color for event headings */
+}
+
+.event .event-message {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 0.9375rem; /* 15px / 16px = 0.9375rem */
+}
+
+.event .meta {
+  font-size: 1rem;
+  color: var(--meta-color);
+}
+
+.event:not(:last-child)::after {
+  content: "";
+  display: block;
+  width: 3.125rem;
+  height: 0.25rem;
+  background-color: #f0f0f0;
+  margin: 2.5rem auto 0;
 }
