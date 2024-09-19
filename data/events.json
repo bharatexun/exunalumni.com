@@ -1,17 +1,37 @@
 [
   {
+    "title": "Exun Alumni Meetup in Singapore",
+    "confirmed_date": "September 20 2024",
+    "confirmed_time": "13:00",
+    "location": "Near the Marina Bay Sands",
+    "organizer": "Ankit Wadhwa",
+    "going": 1
+  },
+  {
     "title": "Exun Alumni Meetup in the Bay Area",
     "confirmed_date": "September 23 2024",
     "confirmed_time": "19:00",
     "location": "Mykonos Meze, Burlingame",
     "location_link": "https://www.mykonosmeze.com",
-    "link": ""
+    "organizer": "Shubham Goel",
+    "going": 26
+  },
+  {
+    "title": "Exun Alumni Meetup in London",
+    "confirmed_date": "September 24 2024",
+    "confirmed_time": "18:30",
+    "location": "The White Bear, Farringdon",
+    "location_link": "https://www.whitebearfarringdon.com/",
+    "organizer": "Achal Varma",
+    "going": 7
   },
   {
     "title": "Exun Alumni Meetup in NYC",
     "tentative_date": "End Sep/Early Oct 2024",
     "location": "TBD",
-    "link": ""
+    "link": "",
+    "organizer": "Aarman Roy",
+    "going": 12
   },
   {
     "title": "Exun Alumni Network Delhi Mixer",
@@ -19,6 +39,8 @@
     "confirmed_time": "15:00 - 18:00",
     "location": "India International Centre, New Delhi",
     "location_link": "https://www.google.com/maps/search/?api=1&query=India%20International%20Centre&query_place_id=ChIJEVfwte3iDDkRAIOm6TXhCjs",
-    "link": "https://lu.ma/event/evt-5LAOa7UZr0OEHM7"
+    "link": "https://lu.ma/event/evt-5LAOa7UZr0OEHM7",
+    "organizer": "Karmanya Singh",
+    "going": 17
   }
 ]

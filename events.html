@@ -70,10 +70,16 @@
                     : event.location
                 }
             </span>                        
-            <br>
             ${
               event.link
-                ? `<br><a href="${event.link}" target="_blank" class="rsvp-link">RSVP</a>`
+                ? `<br/><a href="${event.link}" target="_blank" class="rsvp-link">RSVP</a>`
+                : ""
+            }                      
+            ${
+              event.organizer
+                ? `<br/><span class="going">Join ${event.organizer} and ${
+                    event.going
+                  } ${event.going === 1 ? "other" : "others"}</span>`
                 : ""
             }
           `;
@@ -100,6 +106,7 @@
 
       window.addEventListener("DOMContentLoaded", init);
     </script>
+    <script src="load-navbar.js"></script>
   </head>
   <body>
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
@@ -122,9 +129,9 @@
       src="https://newsletter.bharatk.in/uploads/Vector.svg"
       alt="Exun Alumni Network Logo"
     />
-
+    <div id="navbar-placeholder"></div>
     <div id="main-content">
-      <h2>Exun Alumni: Events</h2>
+      <h2>Events</h2>
 
       <p>
         A list of upcoming events for the Exun Alumni Network. Feel free to post
