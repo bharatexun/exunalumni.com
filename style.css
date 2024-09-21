@@ -354,3 +354,12 @@ select {
   height: 15px;
   fill: currentColor;
 }
+
+.newsletter {
+  padding: 15px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.newsletter:last-child {
+  border-bottom: none;
+}
