@@ -5,6 +5,16 @@
       "source": "/",
       "destination": "/intro",
       "permanent": false
+    },
+    {
+      "source": "/ln-1",
+      "destination": "/ln/sep-2024",
+      "permanent": true
+    },
+    {
+      "source": "/mx-1",
+      "destination": "/events/delhi-oct-2024",
+      "permanent": true
     }
   ],
   "trailingSlash": false

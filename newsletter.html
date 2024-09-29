@@ -65,9 +65,6 @@
                 <p class="newsletter-summary">${newsletter.summary}</p>
               </a>
             `;
-                // <span class="newsletter-meta">${newsletter.date}</span>
-                // <span class="newsletter-divider">|</span>
-                // <span class="newsletter-meta">Issue ${newsletter.issue}</span>
 
             yearSection.appendChild(div);
           });
@@ -79,8 +76,12 @@
       function filterNewsletters(query) {
         const newsletters = document.querySelectorAll(".newsletter");
         newsletters.forEach((newsletter) => {
-          const title = newsletter.querySelector(".newsletter-title p").innerText.toLowerCase();
-          const summary = newsletter.querySelector(".newsletter-summary").innerText.toLowerCase();
+          const title = newsletter
+            .querySelector(".newsletter-title p")
+            .innerText.toLowerCase();
+          const summary = newsletter
+            .querySelector(".newsletter-summary")
+            .innerText.toLowerCase();
           if (title.includes(query) || summary.includes(query)) {
             newsletter.style.display = "block";
           } else {
@@ -92,7 +93,10 @@
     <script src="load-navbar.js"></script>
   </head>
   <body>
-    <h1 id="sticky-header">EXUN ALUMNI <br /> NETWORK</h1>
+    <h1 id="sticky-header">
+      EXUN ALUMNI <br />
+      NETWORK
+    </h1>
 
     <img
       id="logo"
@@ -102,13 +106,15 @@
     <div id="navbar-placeholder"></div>
     <div id="main-content">
       <h2>Newsletters</h2>
-      <p>A collection of all newsletters for the Exun Alumni Network. Catch up on the latest updates and stories from our community.</p>
+      <p>
+        A collection of all newsletters for the Exun Alumni Network. Catch up on
+        the latest updates and stories from our community.
+      </p>
 
       <input
         type="text"
         id="search-input"
         placeholder="Search newsletters..."
-        style="width: 100%; padding: 8px; margin-bottom: 20px; font-size: 1.1em;"
       />
 
       <div id="newsletters"></div>
