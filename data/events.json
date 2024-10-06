@@ -14,7 +14,8 @@
     "location": "Mykonos Meze, Burlingame",
     "location_link": "https://www.mykonosmeze.com",
     "organizer": "Shubham Goel",
-    "going": 26
+    "going": 26,
+    "image_path": "bay-area-sep-2024.jpg"
   },
   {
     "title": "Exun Alumni Meetup in London",
@@ -23,13 +24,14 @@
     "location": "The White Bear, Farringdon",
     "location_link": "https://www.whitebearfarringdon.com/",
     "organizer": "Achal Varma",
-    "going": 7
+    "going": 7,
+    "image_path": "london-sep-2024.jpg"
   },
   {
     "title": "Exun Alumni Meetup in NYC",
-    "tentative_date": "End Sep/Early Oct 2024",
-    "location": "TBD",
-    "link": "",
+    "tentative_date": "3 Oct 2024",
+    "location": "Swift Hibernian Lounge",
+    "location_link": "https://www.swiftnycbar.com/",
     "organizer": "Aarman Roy",
     "going": 12
   },
