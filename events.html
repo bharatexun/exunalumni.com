@@ -24,6 +24,15 @@
         try {
           const response = await fetch("/data/events.json");
           fetched = await response.json();
+          fetched.sort((a, b) => {
+            const dateA = a.confirmed_date
+              ? new Date(a.confirmed_date)
+              : new Date(a.tentative_date);
+            const dateB = b.confirmed_date
+              ? new Date(b.confirmed_date)
+              : new Date(b.tentative_date);
+            return dateB - dateA;
+          });
           showEvents(fetched);
           if (anchor) {
             scrollToAnchor();
@@ -48,13 +57,26 @@
           const eventId = `${event.title.replace(/\s+/g, "-").toLowerCase()}`;
           div.className = "event";
           div.id = eventId;
+
+          const eventDate = event.confirmed_date
+            ? new Date(event.confirmed_date)
+            : new Date(event.tentative_date);
+          const isPastEvent = eventDate < new Date();
+
           div.innerHTML = `
-            <p class="name">
+            <p class="name ${isPastEvent ? "past-event" : ""}">
               <a href="#${eventId}" class="anchor-link" title="Link to this event">
                 ${event.title}
                 <span class="anchor-icon"><svg><use xlink:href="#anchor-link-icon"></use></svg></span>
               </a>
-            </p>            
+            </p>
+            ${
+              event.image_path
+                ? `<div class="event-image-container">
+                     <img src="img/${event.image_path}" alt="${event.title}" loading="lazy" class="event-image">
+                   </div>`
+                : ""
+            }
             ${
               event.confirmed_date
                 ? `<span class="meta">${formatDate(event.confirmed_date)} at ${
@@ -77,9 +99,15 @@
             }                      
             ${
               event.organizer
-                ? `<br/><span class="going">Join ${event.organizer} and ${
-                    event.going
-                  } ${event.going === 1 ? "other" : "others"}</span>`
+                ? `<br/><span class="going">${
+                    isPastEvent
+                      ? `${event.organizer} and ${event.going} ${
+                          event.going === 1 ? "other" : "others"
+                        } attended`
+                      : `Join ${event.organizer} and ${event.going} ${
+                          event.going === 1 ? "other" : "others"
+                        }`
+                  }</span>`
                 : ""
             }
           `;
