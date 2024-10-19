@@ -20,11 +20,11 @@
 
 .info-card {
     display: flex;
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     justify-content:space-between;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .info-card h2 {
@@ -35,7 +35,37 @@
     padding: 0;
 }
 
+.info-text p{
+    padding: 0;
+    margin: 0;
+}
+
 .info-card img {
     width: 45%;
     height: auto;
+}
+
+.info-card .left {
+    text-align: right;
+}
+
+.join-section {
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.join-section h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--blue-dark);
+    margin: 0;
+    padding: 0;
+}
+
+.join-section p {
+    font-size: 1rem;
+    color: var(--grey);
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
 }
