@@ -35,13 +35,13 @@
 }
 
 .info-card {
-  display: flex;
-  /* padding-top: 2rem; */
-  margin-bottom: 100px;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1.7rem;
-  text-align: right;
+    display: flex;
+    /* padding-top: 2rem; */
+    margin-bottom: 100px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.7rem;
+    text-align: right;
 }
 
 .info-card h2 {
@@ -62,7 +62,7 @@
   height: auto;
 }
 
-.info-card .left {
+.left-align {
   text-align: left;
 }
 
@@ -121,4 +121,20 @@
 
 .submit-button:hover {
   background-color: var(--blue-dark);
+}
+
+@media (max-width: 768px) {
+    .info-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 0 15px 20px;
+    }
+    .left-align{
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .join-section{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }

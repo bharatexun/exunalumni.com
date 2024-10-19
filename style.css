@@ -465,3 +465,9 @@ Newsletter styles
   margin-bottom: 1.5rem;
   font-family: "Inter", sans-serif;
 }
+
+@media (max-width: 768px) {
+  #main-nav li {
+    margin: 0 0.5rem;
+  }
+}
