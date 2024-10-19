@@ -37,10 +37,11 @@
 .info-card {
   display: flex;
   /* padding-top: 2rem; */
-  padding-bottom: 4rem;
+  margin-bottom: 100px;
   justify-content: space-between;
   align-items: center;
-  gap: 3rem;
+  gap: 1.7rem;
+  text-align: right;
 }
 
 .info-card h2 {
@@ -62,19 +63,18 @@
 }
 
 .info-card .left {
-  text-align: right;
+  text-align: left;
 }
 
 .join-section {
   padding: 5rem 0;
   text-align: center;
-  margin-top: 20px;
 }
 
 .join-section h2 {
   font-size: 2rem;
   font-weight: 900;
-  color: var(--blue-dark);
+  color: var(--blue-sharp);
   margin: 0;
   padding: 0;
 }
