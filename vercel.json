@@ -1,11 +1,6 @@
 {
   "cleanUrls": true,
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "/intro",
-      "permanent": false
-    },
+  "redirects": [    
     {
       "source": "/ln-1",
       "destination": "/ln/sep-2024",
