@@ -1,0 +1,140 @@
+.hero {
+  text-align: center;
+  padding: 11rem 0;
+}
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--blue-sharp);
+  margin: 0;
+  padding: 0;
+}
+
+.hero p {
+  font-size: 1rem;
+  color: var(--grey);
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.hero button {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: var(--blue-sharp);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border: 1px solid var(--blue-sharp);
+    margin-top: 50px;
+}
+
+.hero a {
+  text-decoration: none;
+  color: white;
+}
+
+.info-card {
+    display: flex;
+    /* padding-top: 2rem; */
+    margin-bottom: 100px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.7rem;
+    text-align: right;
+}
+
+.info-card h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--blue-dark);
+  margin: 0;
+  padding: 0;
+}
+
+.info-text p {
+  padding: 0;
+  margin: 0;
+}
+
+.info-card img {
+  width: 40%;
+  height: auto;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.join-section {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.join-section h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--blue-sharp);
+  margin: 0;
+  padding: 0;
+}
+
+.join-section p {
+  font-size: 1rem;
+  color: var(--grey);
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.join-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.email-input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+.submit-button {
+  width: 50%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: var(--blue-sharp);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border: 1px solid var(--blue-sharp);
+}
+
+.submit-button:hover {
+  background-color: var(--blue-dark);
+}
+
+@media (max-width: 768px) {
+    .info-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 0 15px 20px;
+    }
+    .left-align{
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .join-section{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
