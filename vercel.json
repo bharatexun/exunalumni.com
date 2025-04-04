@@ -3,8 +3,8 @@
   "redirects": [
     {
       "source": "/",
-      "destination": "/intro",
-      "permanent": false
+      "destination": "/home",
+      "permanent": true
     },
     {
       "source": "/ln-1",
